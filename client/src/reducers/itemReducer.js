@@ -1,6 +1,8 @@
 import uuid from 'uuid';
 import {
-    GET_ITEMS
+    GET_ITEMS,
+    ADD_ITEM,
+    DELETE_ITEM
 } from '../actions/types';
 
 const initialState = {
@@ -8,7 +10,7 @@ const initialState = {
         { id: uuid(), name: 'Bread' },
         { id: uuid(), name: 'Milk' },
         { id: uuid(), name: 'Eggs' },
-        { id: uuid(), name: 'Stake' },
+        { id: uuid(), name: 'Candy' },
     ]
 };
 
